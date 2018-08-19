@@ -1,0 +1,48 @@
+.sectionTitle {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.sectionTitle h2 {
+  overflow: hidden;
+  text-align: center;
+  font-size: 36px;
+  margin: 0;
+ }
+ .sectionTitle h2:before,
+ .sectionTitle h2:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 3px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+ }
+ .sectionTitle h2:before {
+  right: 0.5em;
+  margin-left: -50%;
+ }
+ .sectionTitle h2:after {
+  left: 0.5em;
+  margin-right: -50%;
+ }
+
+
+
+.rowContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  flex-flow: row wrap;
+  padding-top: 2%;
+}
+
+.gitContainer {
+  text-align: center;
+}
+
+.githubImg {
+  width: 20%;
+}

@@ -1,0 +1,26 @@
+.contact {
+  background-color: #4f5b66;
+  padding: 10%;
+}
+
+.contact h2 {
+  margin: 0;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.linkedInLink {
+  text-align: center;
+}
+
+.contactContainer {
+  width: 30%;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.email h2 {
+  text-align: center;
+  padding-bottom: 0;
+}

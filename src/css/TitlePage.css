@@ -1,0 +1,18 @@
+.titlePage {
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.titleImg {
+  background-image: url("../img/titleBackground.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.titlePageText {
+  margin: 0;
+  padding: 0;
+  font-size: 600%;
+  text-align: center;
+  color: white;
+}

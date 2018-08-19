@@ -1,0 +1,45 @@
+.education {
+  background-color: #4f5b66;
+}
+
+.educationLeftSide {
+  width: 50%;
+}
+
+.educationText {
+  padding: 5% 15% 5% 15%;
+  line-height: 1.5em;
+  float: left;
+  font-size: 1.2em;
+  font-style: normal;
+  text-decoration: none;
+}
+
+.education p {
+  margin: 0;
+  padding: 0%;
+}
+
+.educationInfo {
+  padding-top: 5%;
+}
+
+
+.education .educationFirstText {
+  padding-bottom: 2%;
+}
+
+.educationContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  flex-flow: row wrap;
+}
+
+.neuImg {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+  height: 100%;
+}

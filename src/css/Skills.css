@@ -1,0 +1,33 @@
+.skills {
+  /* padding: 5% 10% 5% 10%; */
+  background-color: #343d46;
+  padding: 0% 10% 0% 10%;
+}
+
+.skillsItemList {
+  padding: 2%
+}
+
+.skillsContent {
+  padding-top: 2%;
+}
+
+.skillsItemList h3 {
+  overflow: visible;
+}
+
+.skillsItemList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skillsItemList ul li {
+  display: list-item;
+  margin: 3px 0;
+}
+
+.skillsContainer {
+  justify-content: space-between;
+  width: 40%;
+}

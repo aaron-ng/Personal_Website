@@ -1,0 +1,54 @@
+.workExperience {
+  background-color: #65737e;
+  padding: 0% 10% 0% 10%;
+}
+
+.workContentSide {
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+
+.intuitImg {
+  width: 100%;
+}
+
+
+.workContainer {
+  margin: 0 auto 0 auto;
+  padding: 0 0 5% 0;
+  position: relative;
+  width: 60%;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  font-style: normal;
+}
+
+
+.workItem {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  flex-flow: row wrap;
+  padding-top: 2%;
+}
+
+.workItemContent {
+  width: 50%;
+}
+
+.workItemImg {
+  width: 50%;
+  margin-right: auto;
+  margin-left: 0;
+}
+
+.workImgCenter {
+  padding: 15% 0 15% 0;
+}
+
+.workItemTitle h2, .workItemInfo h4, .workItemInfo p,  .workItemContent p {
+  margin: 0;
+  padding: 0;
+}
