@@ -1,14 +1,9 @@
 import React from 'react';
-import { configureAnchors } from 'react-scrollable-anchor';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import '../css/AboutMe.css';
 import { SectionTitle } from './SectionTitle';
 
 export class AboutMe extends React.Component {
-
-  componentWillMount() {
-    configureAnchors({})
-  }
 
   render() {
     return (
@@ -20,10 +15,6 @@ export class AboutMe extends React.Component {
 
               <div className="aboutMeText">
                 <SectionTitle title="About Me." />
-
-              {/* //   <h2>
-              //     About Me.
-              // </h2> */}
 
                 <p className="aboutMeFirstText">
 

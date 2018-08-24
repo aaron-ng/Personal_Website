@@ -1,5 +1,4 @@
 import React from 'react';
-import { configureAnchors } from 'react-scrollable-anchor';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import { GithubLink } from './GithubLink';
 import { SectionTitle } from './SectionTitle';
@@ -8,10 +7,6 @@ import '../css/Generic.css';
 
 
 export class Projects extends React.Component {
-
-  componentWillMount() {
-    configureAnchors({})
-  }
 
   render() {
     return (
@@ -55,10 +50,10 @@ export class Projects extends React.Component {
                         Creator
                     </i>
                       <br />
-                      Designed and created the personal website that you are on now. I use this website as a way to compile all of my work experience and projects under one roof. The website is built on javascript and react.
+                      Designed and created the personal website that you are on now. I use this website as a way to compile all of my work experience and projects under one roof. The website is built on javascript and the react framework.
                     <br />
                       <br />
-                      This website was created with the knowledge learned at my time at Intuit. I came into the co-op position without any front end experience at all, however my time there has given me a great oppurtunityy to self teach myself javascript as well as the react framework.
+                      This website was created with the knowledge learned at my time at Intuit. I came into the co-op position without any front end experience at all, however my time there has given me a great oppurtunity to self teach myself javascript as well as the react framework.
                   </p>
                   </div>
 
@@ -103,10 +98,10 @@ export class Projects extends React.Component {
                         Project Champion
                     </i>
                       <br />
-                      Led a team to create a battle robot. Coded and built a battle robot to compete against other groups. The robot was graded in three different categories: aesthetics, complexity and combat effeciency. The aesthetics was judged on a vote by professors as well as particpants in the other project champions. The complexity of the bot was judged by the professors that were running the event. Lastly the combat effeciency was judged on how the bot would fair on a free for all between multiple teams. Our battle bot was able to place first place in the first two categories and took third in combat effeciency.
+                      Led a team to create a battle robot. Coded and built a battle robot to compete against other groups. The robot was graded in three different categories: aesthetics, complexity and combat effeciency. The aesthetics was judged on a vote by professors as well as particpants in the other projects. The complexity of the bot was judged by the professors that were running the event. Lastly the combat effeciency was judged on how the bot would fair on a free for all between multiple teams. Our battle bot was able to place first place in the first two categories and took third in combat effeciency.
                     <br />
                       <br />
-                      This project was my first introduction to coding and creating something with code. The bot was built on scratch and legos. Looking back it was funny that I used scratch, now I would not even consider it as a proper language. However it was my first introduction to programming, and therefore I consider it as one of the most important projects I have build.
+                      This project was my first introduction to coding and creating something with code. The bot was built on scratch and legos. Looking back it was funny that I used scratch, now I would not even consider it as a proper language. However it was my first introduction to programming, and therefore I consider it as one of the most important projects I have built.
                   </p>
                   </div>
                 </div>

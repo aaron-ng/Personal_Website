@@ -14,7 +14,7 @@ import { Contact } from './Contact';
 export class MainPage extends React.Component {
 
   componentWillMount() {
-    configureAnchors({})
+    configureAnchors({offset: -56.16});
   }
 
   render() {

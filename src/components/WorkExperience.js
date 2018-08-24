@@ -1,15 +1,10 @@
 import React from 'react';
-import { configureAnchors } from 'react-scrollable-anchor';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import '../css/WorkExperience.css';
 import '../css/Generic.css';
 import { SectionTitle } from './SectionTitle';
 
 export class WorkExperience extends React.Component {
-
-  componentWillMount() {
-    configureAnchors({})
-  }
 
   render() {
     return (

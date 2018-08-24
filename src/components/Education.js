@@ -1,14 +1,9 @@
 import React from 'react';
-import { configureAnchors } from 'react-scrollable-anchor';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import '../css/Education.css';
 import { SectionTitle } from './SectionTitle';
 
 export class Education extends React.Component {
-
-  componentWillMount() {
-    configureAnchors({})
-  }
 
   render() {
     return (
